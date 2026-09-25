@@ -38,9 +38,9 @@ section.hero {
 .hero h1 {
     font-family: 'Benton mod';
     color: white;
-    font-size: 20px;
+    font-size: 1.3em;
     text-align: center;
     padding: 100px;
-    
+    padding-top: 50px;
 
 }
