@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Creato Display';
+    src: url('fonts/CreatoDisplay-Bold.otf') format(opentype);
+    font-weight: normal;
+    font-size: normal; 
+}
+
+@font-face {
+    font-family: 'Benton mod';
+    src: url('fonts/BentonModDisp-Semibold.otf') format(opentype);
+    font-weight: normal;
+    font-size: normal;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+section#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+section#hero img {
+    background-image: url('Imagens/Barber.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
