@@ -18,29 +18,85 @@
     margin: 0px;
     box-sizing: border-box;
 }
+body {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+header#topo {
+    background-image: url('Imagens/Barber.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 96vw;
+    height: 96vh;
+    border-radius: 30px;
+    
+    
+}
 
 header#topo {
     display: flex;
-    background-image: url('Imagens/Barber.png');
-    background-size: cover;
-    background-position: top center;
-    height: 600px;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius:50px ;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
-section.hero {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
-.hero h1 {
+div.texto h1 {
     font-family: 'Benton mod';
     color: white;
-    font-size: 1.3em;
+    display: grid;
     text-align: center;
-    padding: 100px;
-    padding-top: 50px;
-
+    font-size: 1.2em;
+    padding: 0px 20px;
 }
+span.DESCONTO {
+    color: rgb(255, 208, 0);
+}
+
+div.agende {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    list-style: none;
+    font-family: 'Creato Display';
+    text-align: center;
+    color: white;
+}
+
+li {
+    list-style: none;
+    transition: background-color 0.5s, border 0.2s;
+    
+}
+
+li > a {
+    text-decoration: none;
+    
+}
+
+li.agendar-voce{
+    border: 1px solid white;
+    padding: 15px;
+    width: 270px;
+    text-align: center;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+
+li.agendar-zap {
+    border: 1px solid white;
+    padding: 15px;
+    width: 270px;
+    text-align: center;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+li:hover{
+    background-color: rgb(255, 166, 0);
+    border: none;
+}
+
