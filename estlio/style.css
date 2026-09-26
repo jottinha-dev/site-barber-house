@@ -67,12 +67,13 @@ div.agende {
 
 li {
     list-style: none;
-    transition: background-color 0.5s, border 0.2s;
+    transition: transform 0.3s ease;
     
 }
 
 li > a {
     text-decoration: none;
+   
     
 }
 
@@ -98,5 +99,33 @@ li.agendar-zap {
 li:hover{
     background-color: rgb(255, 166, 0);
     border: none;
+    transform: translateY(-5px);
+}
+div.texto h1 span.quebra {
+    display: inline;
 }
 
+@media screen and (min-width:768px ){
+    div.texto h1{
+        text-align: center;
+        font-size: 2.3em;
+        font-weight: bold;
+        hyphens: manual;
+    }
+    div.texto h1 span.quebra {
+        display: inline;
+    }
+
+    span.DESCONTO {
+        display: block;
+        font-size: 2.5em;
+    }
+
+    ul.chamada {
+        display: flex;       /* Alinha os itens na horizontal */
+        list-style: none;    /* Remove as bolinhas da lista */
+        padding: 0;          /* Remove o recuo padrão */
+        margin: 0;           /* Remove as margens padrão */
+        gap: 20px;    
+    }
+}
