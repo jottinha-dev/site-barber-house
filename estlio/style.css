@@ -55,7 +55,7 @@ span.DESCONTO {
 }
 
 div.agende {
-    display: grid;
+    display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 20px;
@@ -86,13 +86,13 @@ li.agendar-voce{
 }
 
 li.agendar-zap {
-    border: 1px solid white;
     padding: 15px;
     width: 270px;
     text-align: center;
     border-radius: 50px;
     margin-bottom: 15px;
     color: white;
+    background-color:rgb(255, 166, 0) ;
 }
 
 li:hover{
